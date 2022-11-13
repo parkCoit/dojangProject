@@ -3,14 +3,17 @@ x = 5
 # problem
 def practice(a):
     if a != 10 :
-        return "ok"
-    else : "no"
+        answer = "ok"
+    else : answer = "no"
+    return answer
 
 # problem2
 def practice2(a):
     b ,c = a
     if c[:4] == "Cash":
-        return int(b) - int(c[4:])
+        answer = int(b) - int(c[4:])
+    else: answer = "잘못 된 값"
+    return answer
 
 
 if __name__ == '__main__':

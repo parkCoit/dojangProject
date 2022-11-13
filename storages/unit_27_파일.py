@@ -17,11 +17,11 @@ def file(txt):
                 count += 1
         return count
 
-def file2():
+
+def file2(txt):
     pass
 
 
-
 if __name__ == '__main__':
-    print(file('words.txt'))
-    print(file2())
+    print(file('./data/words.txt'))
+    file2('./data/word.txt')
